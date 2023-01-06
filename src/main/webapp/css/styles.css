@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit, serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #ECF9FC;
+}
+
+#logo {
+    width: 88px;
+
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form-login input {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.form-login h1 {
+    color: #155B6C;
+}
+
+#nav-text {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#nav-link {
+    font-weight: 600;
+    font-size: 18px;
+    color: #287385;
+}
+
+.form-login button {
+    margin-top: 24px;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    background-color: #155B6C;
+    color: white;
+    display: flex;
+    padding: 12px 82px;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+aside {
+    width: 18%;
+    background-color: #287385;
+    padding: 73px 40px;
+}
+
+aside ul {
+    width: 100%;
+}
+
+aside>ul>li {
+    list-style: none;
+    padding: 16px 0px;
+
+}
+aside>ul>li>a {
+    color: white;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+}
+
+.nav-active a {
+    background-color: #C6ECF5;
+    color: #287385;
+    
+}
+
+main {
+    width: 82%;
+    padding: 24px 48px;
+    padding-right: 80px;
+}
+
+.main-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.box_shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(61, 123, 137, 0.1);
+    border-radius: 8px;
+    padding: 20px 24px;
+    padding-top: 28px;
+}
+
+.input_barang {
+    width: 100%;
+}
+
+.total_harga {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.input_barang input,select {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.tambah-barang input {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.input_barang label {
+    font-weight: 600;
+}
+
+.form-pembayaran {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.form-pembayaran h1 {
+    color: #155B6C;
+}
+
+.form-pembayaran p {
+    font-weight: 600;
+}
+
+.jumlah_uang {
+    display: flex;
+  }
+
+.input_uang {
+    width: 100%;
+}
+
+.refresh-button {
+    background-color: #f1c500;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-button {
+    background-color: #287385;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tambah-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.total_harga p {
+    font-weight: 600;
+
+}
+
+.total_harga h1 {
+    color: #155B6C;
+    font-size: 60px;
+}
+
+#nomor-nota {
+    font-size: 20px;
+    color: #155B6C;
+    font-weight: 700;
+    margin-top: 4px;
+    letter-spacing: 1px;
+}
+
+.list-belanja {
+    width: 100%;
+    margin-top: 24px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.list-belanja th {
+    background-color: #155B6C;
+    color: white;
+    padding: 12px 0;
+    font-weight: 500;
+}
+
+.list-belanja tr td {
+    padding: 12px 0;
+    border-bottom: 1px solid black;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #155B6C;
+}
+
+.main-header a {
+    background: #287385;
+    border-radius: 8px;
+    padding: 12px 48px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.link {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    text-decoration: none;
+}
